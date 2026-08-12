@@ -40,9 +40,9 @@ export default function FAQSection() {
   };
 
   return (
-    <section className="py-24 bg-white">
+    <section className="py-16 bg-white">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl text-center mb-16">
+        <div className="mx-auto max-w-2xl text-center mb-10">
           <span className="inline-block px-4 py-1 rounded-full bg-red-100 text-red-600 font-semibold text-sm mb-4">
             Very Important
           </span>
@@ -51,7 +51,7 @@ export default function FAQSection() {
           </h2>
         </div>
 
-        <div className="mx-auto max-w-3xl space-y-4">
+        <div className="mx-auto max-w-3xl space-y-3">
           {faqs.map((faq, index) => {
             const isOpen = openIndex === index;
             return (
@@ -61,7 +61,7 @@ export default function FAQSection() {
               >
                 <button
                   onClick={() => toggleOpen(index)}
-                  className="w-full px-6 py-5 text-left flex items-center justify-between focus:outline-none focus-visible:ring-2 focus-visible:ring-primary"
+                  className="w-full px-6 py-4 text-left flex items-center justify-between focus:outline-none focus-visible:ring-2 focus-visible:ring-primary"
                 >
                   <span className="font-semibold text-lg text-foreground pr-4">
                     {faq.question}
@@ -97,7 +97,7 @@ export default function FAQSection() {
           })}
         </div>
 
-        <div className="mt-16 flex justify-center">
+        <div className="mt-10 flex justify-center">
           <a
             href="#book"
             className="group relative inline-flex items-center justify-center gap-2 rounded-full bg-primary px-8 py-4 text-lg font-semibold text-white shadow-xl shadow-primary/30 transition-all hover:bg-emerald-600 hover:shadow-primary/40 hover:-translate-y-1"

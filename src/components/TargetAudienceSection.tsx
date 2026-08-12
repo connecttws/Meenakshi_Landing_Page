@@ -13,9 +13,9 @@ const points = [
 
 export default function TargetAudienceSection() {
   return (
-    <section className="py-24 bg-background">
+    <section className="py-16 bg-background">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-3xl text-center mb-16">
+        <div className="mx-auto max-w-3xl text-center mb-10">
           <h2 className="text-3xl font-bold tracking-tight text-secondary sm:text-4xl">
             Who Is This For?
           </h2>
@@ -25,7 +25,7 @@ export default function TargetAudienceSection() {
         </div>
 
         <div className="mx-auto max-w-2xl bg-white rounded-3xl shadow-xl border border-black/5 p-8 sm:p-12">
-          <ul className="space-y-6">
+          <ul className="space-y-4">
             {points.map((point, index) => (
               <motion.li
                 key={index}

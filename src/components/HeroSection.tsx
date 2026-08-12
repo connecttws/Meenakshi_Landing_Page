@@ -5,7 +5,7 @@ import { Play, CalendarCheck } from "lucide-react";
 
 export default function HeroSection() {
   return (
-    <section className="relative overflow-hidden bg-[#fdfbf7] pt-32 pb-16 sm:pt-40 sm:pb-24">
+    <section className="relative overflow-hidden bg-[#fdfbf7] pt-24 pb-12 sm:pt-28 sm:pb-16">
       {/* Enhanced Background Decor */}
       <div className="absolute inset-0 z-0">
         {/* Subtle Grid Pattern */}
@@ -60,7 +60,7 @@ export default function HeroSection() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.3, duration: 0.8 }}
-            className="mt-8 flex flex-wrap items-center justify-center gap-4 text-sm font-semibold text-secondary"
+            className="mt-6 flex flex-wrap items-center justify-center gap-4 text-sm font-semibold text-secondary"
           >
             <div className="flex items-center gap-2 bg-white/80 backdrop-blur px-5 py-2.5 rounded-full shadow-sm border border-black/5">
               <span className="text-primary text-lg">✦</span> One-Time Investment
@@ -78,7 +78,7 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6, duration: 0.8 }}
-            className="mt-14 relative w-full max-w-3xl mx-auto aspect-video bg-secondary rounded-2xl shadow-2xl overflow-hidden group cursor-pointer border-4 border-white/50"
+            className="mt-10 relative w-full max-w-3xl mx-auto aspect-video bg-secondary rounded-2xl shadow-2xl overflow-hidden group cursor-pointer border-4 border-white/50"
           >
             <div className="absolute inset-0 bg-gradient-to-br from-secondary to-[#043326] flex items-center justify-center transition-colors">
               <div className="w-20 h-20 bg-primary rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
@@ -94,7 +94,7 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.9, duration: 0.8 }}
-            className="mt-14 flex flex-col sm:flex-row items-center justify-center gap-4"
+            className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4"
           >
             <a
               href="#book"

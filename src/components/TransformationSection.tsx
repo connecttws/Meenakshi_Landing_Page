@@ -12,9 +12,9 @@ export default function TransformationSection() {
   ];
 
   return (
-    <section className="py-24 bg-white">
+    <section className="py-16 bg-white">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl text-center mb-16">
+        <div className="mx-auto max-w-2xl text-center mb-10">
           <h2 className="text-3xl font-bold tracking-tight text-secondary sm:text-4xl">
             Real People. Real Results.
           </h2>
@@ -23,7 +23,7 @@ export default function TransformationSection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {transformations.map((item, index) => (
             <motion.div
               key={item.id}
@@ -52,7 +52,7 @@ export default function TransformationSection() {
           ))}
         </div>
 
-        <div className="mt-16 flex justify-center">
+        <div className="mt-10 flex justify-center">
           <a
             href="#book"
             className="inline-flex items-center gap-2 rounded-full bg-secondary px-6 py-3 text-sm font-semibold text-white shadow-md transition-transform hover:-translate-y-1 hover:shadow-lg"

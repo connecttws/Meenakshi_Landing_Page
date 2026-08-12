@@ -27,9 +27,9 @@ const features = [
 
 export default function ProgramDetailsSection() {
   return (
-    <section className="py-24 bg-secondary">
+    <section className="py-16 bg-secondary">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-3xl text-center mb-16">
+        <div className="mx-auto max-w-3xl text-center mb-10">
           <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
             What You'll Get Inside Your Coaching Program
           </h2>
@@ -38,7 +38,7 @@ export default function ProgramDetailsSection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
           {features.map((feature, index) => {
             const Icon = feature.icon;
             return (
@@ -59,7 +59,7 @@ export default function ProgramDetailsSection() {
           })}
         </div>
 
-        <div className="mt-16 flex justify-center">
+        <div className="mt-10 flex justify-center">
           <a
             href="#book"
             className="group relative inline-flex items-center justify-center gap-2 rounded-full bg-primary px-8 py-4 text-lg font-semibold text-white shadow-xl shadow-primary/30 transition-all hover:bg-emerald-600 hover:shadow-primary/40 hover:-translate-y-1"
