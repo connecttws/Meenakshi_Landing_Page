@@ -5,7 +5,7 @@ import { Play, CalendarCheck } from "lucide-react";
 
 export default function HeroSection() {
   return (
-    <section className="relative overflow-hidden bg-[#fdfbf7] pt-24 pb-12 sm:pt-28 sm:pb-16">
+    <section className="relative overflow-hidden bg-[#fdfbf7] pt-24 pb-8 sm:pt-28 sm:pb-16">
       {/* Enhanced Background Decor */}
       <div className="absolute inset-0 z-0">
         {/* Subtle Grid Pattern */}
@@ -37,23 +37,23 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-emerald-50 border border-emerald-200 text-emerald-700 text-xs font-semibold mb-8">
+            <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-emerald-50 border border-emerald-200 text-emerald-700 text-xs font-semibold mb-6 sm:mb-8">
               <span className="relative flex h-2 w-2">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
               </span>
               <span className="font-bold text-emerald-800 tabular-nums">42</span> Clients Joining Live
             </div>
-            <h1 className="text-2xl font-extrabold tracking-tight text-secondary sm:text-6xl mb-6 flex flex-col sm:block leading-snug sm:leading-tight">
+            <h1 className="text-2xl font-extrabold tracking-tight text-secondary sm:text-6xl mb-4 sm:mb-6 flex flex-col sm:block leading-snug sm:leading-tight">
               <span>This Isn't Just Another{" "}</span>
               <span>Diet Program.</span>
-              <span className="block text-primary mt-2">
+              <span className="block text-primary mt-1 sm:mt-2">
                 It's Your Last Weight Loss Journey.
               </span>
             </h1>
-            <p className="mt-6 text-sm sm:text-lg leading-relaxed sm:leading-8 text-foreground/80 font-medium max-w-2xl mx-auto">
-              Most Programs End When the Package Ends. Ours Ends Only When Your
-              Transformation Begins.
+            <p className="mt-4 sm:mt-6 text-xs sm:text-lg leading-relaxed sm:leading-8 text-foreground/80 font-medium max-w-2xl mx-auto flex flex-col sm:block">
+              <span>Most Programs End When the Package Ends.{" "}</span>
+              <span>Ours Ends Only When Your Transformation Begins.</span>
             </p>
           </motion.div>
 
@@ -63,17 +63,25 @@ export default function HeroSection() {
             transition={{ delay: 0.3, duration: 0.8 }}
             className="mt-6 flex flex-row items-stretch justify-center gap-2 sm:gap-4 text-[10px] sm:text-sm font-semibold text-secondary w-full"
           >
-            <div className="flex flex-1 sm:flex-none flex-col sm:flex-row items-center justify-center gap-1 sm:gap-2 bg-white/80 backdrop-blur px-1 sm:px-5 py-2 sm:py-2.5 rounded-xl sm:rounded-full shadow-sm border border-black/5 text-center leading-tight">
-              <span className="text-primary text-xs sm:text-lg">✦</span> 
-              <span>One-Time<br className="sm:hidden" /> Investment</span>
+            <div className="relative flex flex-1 sm:flex-none overflow-hidden rounded-xl sm:rounded-full p-[1.5px] shadow-sm">
+              <div className="absolute left-1/2 top-1/2 aspect-square w-[250%] -translate-x-1/2 -translate-y-1/2 animate-[spin_3s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,transparent_0%,#10b981_50%,transparent_100%)] opacity-80" />
+              <div className="relative flex flex-1 sm:flex-none flex-row items-center justify-center bg-white/95 backdrop-blur px-1 sm:px-5 py-2 sm:py-2.5 rounded-[10px] sm:rounded-full text-center leading-tight h-full w-full">
+                <span>One-Time<br className="sm:hidden" /> Investment</span>
+              </div>
             </div>
-            <div className="flex flex-1 sm:flex-none flex-col sm:flex-row items-center justify-center gap-1 sm:gap-2 bg-white/80 backdrop-blur px-1 sm:px-5 py-2 sm:py-2.5 rounded-xl sm:rounded-full shadow-sm border border-black/5 text-center leading-tight">
-              <span className="text-primary text-xs sm:text-lg">✦</span> 
-              <span>No Renewal<br className="sm:hidden" /> Charges</span>
+            
+            <div className="relative flex flex-1 sm:flex-none overflow-hidden rounded-xl sm:rounded-full p-[1.5px] shadow-sm">
+              <div className="absolute left-1/2 top-1/2 aspect-square w-[250%] -translate-x-1/2 -translate-y-1/2 animate-[spin_3s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,transparent_0%,#10b981_50%,transparent_100%)] opacity-80" />
+              <div className="relative flex flex-1 sm:flex-none flex-row items-center justify-center bg-white/95 backdrop-blur px-1 sm:px-5 py-2 sm:py-2.5 rounded-[10px] sm:rounded-full text-center leading-tight h-full w-full">
+                <span>No Renewal<br className="sm:hidden" /> Charges</span>
+              </div>
             </div>
-            <div className="flex flex-1 sm:flex-none flex-col sm:flex-row items-center justify-center gap-1 sm:gap-2 bg-white/80 backdrop-blur px-1 sm:px-5 py-2 sm:py-2.5 rounded-xl sm:rounded-full shadow-sm border border-black/5 text-center leading-tight">
-              <span className="text-primary text-xs sm:text-lg">✦</span> 
-              <span>No Time<br className="sm:hidden" /> Limit</span>
+
+            <div className="relative flex flex-1 sm:flex-none overflow-hidden rounded-xl sm:rounded-full p-[1.5px] shadow-sm">
+              <div className="absolute left-1/2 top-1/2 aspect-square w-[250%] -translate-x-1/2 -translate-y-1/2 animate-[spin_3s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,transparent_0%,#10b981_50%,transparent_100%)] opacity-80" />
+              <div className="relative flex flex-1 sm:flex-none flex-row items-center justify-center bg-white/95 backdrop-blur px-1 sm:px-5 py-2 sm:py-2.5 rounded-[10px] sm:rounded-full text-center leading-tight h-full w-full">
+                <span>No Time<br className="sm:hidden" /> Limit</span>
+              </div>
             </div>
           </motion.div>
 
