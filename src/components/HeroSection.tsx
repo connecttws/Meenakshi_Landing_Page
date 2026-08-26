@@ -37,20 +37,20 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-50 border border-emerald-200 text-emerald-700 text-sm font-semibold mb-8">
+            <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-emerald-50 border border-emerald-200 text-emerald-700 text-xs font-semibold mb-8">
               <span className="relative flex h-2 w-2">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
               </span>
-              Accepting New Clients
+              <span className="font-bold text-emerald-800 tabular-nums">42</span> Clients Joining Live
             </div>
-            <h1 className="text-4xl font-extrabold tracking-tight text-secondary sm:text-6xl mb-6">
-              This Isn't Just Another Diet Program.
+            <h1 className="text-3xl font-extrabold tracking-tight text-secondary sm:text-6xl mb-6">
+              This Isn't Just <br className="sm:hidden" />Another Diet Program.
               <span className="block text-primary mt-2">
                 It's Your Last Weight Loss Journey.
               </span>
             </h1>
-            <p className="mt-6 text-lg leading-8 text-foreground/80 font-medium max-w-2xl mx-auto">
+            <p className="mt-6 text-sm sm:text-lg leading-relaxed sm:leading-8 text-foreground/80 font-medium max-w-2xl mx-auto">
               Most Programs End When the Package Ends. Ours Ends Only When Your
               Transformation Begins.
             </p>
@@ -60,16 +60,19 @@ export default function HeroSection() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.3, duration: 0.8 }}
-            className="mt-6 flex flex-wrap items-center justify-center gap-4 text-sm font-semibold text-secondary"
+            className="mt-6 flex flex-row items-stretch justify-center gap-2 sm:gap-4 text-[10px] sm:text-sm font-semibold text-secondary w-full"
           >
-            <div className="flex items-center gap-2 bg-white/80 backdrop-blur px-5 py-2.5 rounded-full shadow-sm border border-black/5">
-              <span className="text-primary text-lg">✦</span> One-Time Investment
+            <div className="flex flex-1 sm:flex-none flex-col sm:flex-row items-center justify-center gap-1 sm:gap-2 bg-white/80 backdrop-blur px-1 sm:px-5 py-2 sm:py-2.5 rounded-xl sm:rounded-full shadow-sm border border-black/5 text-center leading-tight">
+              <span className="text-primary text-xs sm:text-lg">✦</span> 
+              <span>One-Time<br className="sm:hidden" /> Investment</span>
             </div>
-            <div className="flex items-center gap-2 bg-white/80 backdrop-blur px-5 py-2.5 rounded-full shadow-sm border border-black/5">
-              <span className="text-primary text-lg">✦</span> No Renewal Charges
+            <div className="flex flex-1 sm:flex-none flex-col sm:flex-row items-center justify-center gap-1 sm:gap-2 bg-white/80 backdrop-blur px-1 sm:px-5 py-2 sm:py-2.5 rounded-xl sm:rounded-full shadow-sm border border-black/5 text-center leading-tight">
+              <span className="text-primary text-xs sm:text-lg">✦</span> 
+              <span>No Renewal<br className="sm:hidden" /> Charges</span>
             </div>
-            <div className="flex items-center gap-2 bg-white/80 backdrop-blur px-5 py-2.5 rounded-full shadow-sm border border-black/5">
-              <span className="text-primary text-lg">✦</span> No Time Limit
+            <div className="flex flex-1 sm:flex-none flex-col sm:flex-row items-center justify-center gap-1 sm:gap-2 bg-white/80 backdrop-blur px-1 sm:px-5 py-2 sm:py-2.5 rounded-xl sm:rounded-full shadow-sm border border-black/5 text-center leading-tight">
+              <span className="text-primary text-xs sm:text-lg">✦</span> 
+              <span>No Time<br className="sm:hidden" /> Limit</span>
             </div>
           </motion.div>
 
