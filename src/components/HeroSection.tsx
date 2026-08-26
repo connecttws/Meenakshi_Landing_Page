@@ -44,7 +44,7 @@ export default function HeroSection() {
               </span>
               <span className="font-bold text-emerald-800 tabular-nums">42</span> Clients Joining Live
             </div>
-            <h1 className="text-3xl font-extrabold tracking-tight text-secondary sm:text-6xl mb-6 flex flex-col sm:block">
+            <h1 className="text-2xl font-extrabold tracking-tight text-secondary sm:text-6xl mb-6 flex flex-col sm:block leading-snug sm:leading-tight">
               <span>This Isn't Just Another{" "}</span>
               <span>Diet Program.</span>
               <span className="block text-primary mt-2">
