@@ -37,13 +37,7 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-emerald-50 border border-emerald-200 text-emerald-700 text-xs font-semibold mb-4 sm:mb-6">
-              <span className="relative flex h-2 w-2">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
-              </span>
-              <span className="font-bold text-emerald-800 tabular-nums">42</span> Clients Joining Live
-            </div>
+
             <h1 className="text-2xl font-extrabold tracking-tight text-secondary sm:text-6xl mb-3 sm:mb-5 flex flex-col sm:block leading-snug sm:leading-tight">
               <span>This Isn't Just Another{" "}</span>
               <span>Diet Program.</span>
