@@ -44,9 +44,9 @@ export default function HeroSection() {
               </span>
               <span className="font-bold text-emerald-800 tabular-nums">42</span> Clients Joining Live
             </div>
-            <h1 className="text-3xl font-extrabold tracking-tight text-secondary sm:text-6xl mb-6">
-              <span className="block sm:inline">This Isn't Just</span>{" "}
-              <span className="block sm:inline">Another Diet Program.</span>
+            <h1 className="text-3xl font-extrabold tracking-tight text-secondary sm:text-6xl mb-6 flex flex-col sm:block">
+              <span>This Isn't Just Another{" "}</span>
+              <span>Diet Program.</span>
               <span className="block text-primary mt-2">
                 It's Your Last Weight Loss Journey.
               </span>
