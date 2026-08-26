@@ -37,21 +37,21 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-emerald-50 border border-emerald-200 text-emerald-700 text-xs font-semibold mb-6 sm:mb-8">
+            <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-emerald-50 border border-emerald-200 text-emerald-700 text-xs font-semibold mb-4 sm:mb-6">
               <span className="relative flex h-2 w-2">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
               </span>
               <span className="font-bold text-emerald-800 tabular-nums">42</span> Clients Joining Live
             </div>
-            <h1 className="text-2xl font-extrabold tracking-tight text-secondary sm:text-6xl mb-4 sm:mb-6 flex flex-col sm:block leading-snug sm:leading-tight">
+            <h1 className="text-2xl font-extrabold tracking-tight text-secondary sm:text-6xl mb-3 sm:mb-5 flex flex-col sm:block leading-snug sm:leading-tight">
               <span>This Isn't Just Another{" "}</span>
               <span>Diet Program.</span>
               <span className="block text-primary mt-1 sm:mt-2">
                 It's Your Last Weight Loss Journey.
               </span>
             </h1>
-            <p className="mt-4 sm:mt-6 text-xs sm:text-lg leading-relaxed sm:leading-8 text-foreground/80 font-medium max-w-2xl mx-auto flex flex-col sm:block">
+            <p className="mt-3 sm:mt-4 text-xs sm:text-lg leading-relaxed sm:leading-8 text-foreground/80 font-medium max-w-2xl mx-auto flex flex-col sm:block">
               <span>Most Programs End When the Package Ends.{" "}</span>
               <span>Ours Ends Only When Your Transformation Begins.</span>
             </p>
@@ -61,7 +61,7 @@ export default function HeroSection() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.3, duration: 0.8 }}
-            className="mt-6 flex flex-row items-stretch justify-center gap-2 sm:gap-4 text-[10px] sm:text-sm font-semibold text-secondary w-full"
+            className="mt-4 sm:mt-6 flex flex-row items-stretch justify-center gap-2 sm:gap-4 text-[10px] sm:text-sm font-semibold text-secondary w-full"
           >
             <div className="relative flex flex-1 sm:flex-none overflow-hidden rounded-xl sm:rounded-full p-[1.5px] shadow-sm">
               <div className="absolute left-1/2 top-1/2 aspect-square w-[250%] -translate-x-1/2 -translate-y-1/2 animate-[spin_3s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,transparent_0%,#10b981_50%,transparent_100%)] opacity-80" />
@@ -90,7 +90,7 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6, duration: 0.8 }}
-            className="mt-10 relative w-full max-w-3xl mx-auto aspect-video bg-secondary rounded-2xl shadow-2xl overflow-hidden group cursor-pointer border-4 border-white/50"
+            className="mt-6 sm:mt-10 relative w-full max-w-3xl mx-auto aspect-video bg-secondary rounded-2xl shadow-2xl overflow-hidden group cursor-pointer border-4 border-white/50"
           >
             <div className="absolute inset-0 bg-gradient-to-br from-secondary to-[#043326] flex items-center justify-center transition-colors">
               <div className="w-20 h-20 bg-primary rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
@@ -106,7 +106,7 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.9, duration: 0.8 }}
-            className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4"
+            className="mt-6 sm:mt-10 flex flex-col sm:flex-row items-center justify-center gap-4"
           >
             <a
               href="#book"
