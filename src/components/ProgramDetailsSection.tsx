@@ -64,7 +64,7 @@ export default function ProgramDetailsSection() {
             href="#book"
             className="group relative inline-flex items-center justify-center gap-2 rounded-full bg-primary px-8 py-4 text-lg font-semibold text-white shadow-xl shadow-primary/30 transition-all hover:bg-emerald-600 hover:shadow-primary/40 hover:-translate-y-1"
           >
-            Book My Consultation
+            Book Your Consultation
           </a>
         </div>
       </div>

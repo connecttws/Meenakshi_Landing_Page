@@ -80,6 +80,7 @@ export default function TransformationSection() {
                   src={`/images/transformation%20images/${img}`}
                   alt={`Client Transformation ${index + 1}`}
                   fill
+                  priority={index < 3}
                   className="object-cover transition-transform duration-500 group-hover:scale-105"
                   sizes="(max-width: 640px) 85vw, (max-width: 768px) 350px, 400px"
                 />
@@ -113,7 +114,7 @@ export default function TransformationSection() {
             className="inline-flex w-full sm:w-auto items-center justify-center gap-2 rounded-full bg-secondary px-8 py-4 text-base sm:text-lg font-bold text-white shadow-xl shadow-secondary/20 transition-transform hover:-translate-y-1 hover:shadow-secondary/30"
           >
             <CalendarCheck className="w-5 h-5" />
-            Book My Consultation
+            Book Your Consultation
           </a>
         </div>
       </div>

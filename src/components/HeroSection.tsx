@@ -107,7 +107,7 @@ export default function HeroSection() {
               className="group relative inline-flex w-full sm:w-auto items-center justify-center gap-2 rounded-full bg-primary px-8 py-4 text-lg font-semibold text-white shadow-xl shadow-primary/30 transition-all hover:bg-emerald-600 hover:shadow-primary/40 hover:-translate-y-1"
             >
               <CalendarCheck className="w-5 h-5" />
-              Book My Consultation
+              Book Your Consultation
               <div className="absolute inset-0 rounded-full ring-2 ring-primary ring-offset-2 ring-offset-background opacity-0 transition-opacity group-hover:opacity-100" />
             </a>
             <p className="text-sm text-foreground/60 font-medium">Limited spots available this month.</p>
