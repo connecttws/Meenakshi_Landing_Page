@@ -47,7 +47,7 @@ export default function Navbar() {
           <a href="#faq" className="hover:text-primary transition-colors">FAQ</a>
         </div>
 
-        <div className="flex-shrink-0 ml-2 sm:ml-0 mr-2 sm:mr-4">
+        <div className="flex-shrink-0 ml-2 sm:ml-0">
           <a
             href="#book"
             className="inline-flex items-center justify-center rounded-full bg-secondary px-2.5 py-1.5 sm:px-4 sm:py-2 text-[10px] sm:text-xs font-semibold text-white shadow-sm hover:bg-secondary/90 transition-colors whitespace-nowrap"
