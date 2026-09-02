@@ -5,11 +5,11 @@ import { CalendarCheck, Heart } from "lucide-react";
 
 export default function CoachProfileSection() {
   return (
-    <section className="py-20 bg-[#043326] relative overflow-hidden">
+    <section className="py-10 md:py-16 bg-[#043326] relative overflow-hidden">
       {/* Background Decor */}
       <div className="absolute top-0 right-0 w-full h-full bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-emerald-800/30 via-transparent to-transparent opacity-80 z-0 pointer-events-none"></div>
       
-      <div className="mx-auto max-w-7xl px-6 lg:px-8 relative z-10">
+      <div className="mx-auto max-w-7xl px-4 md:px-6 lg:px-8 relative z-10">
         <div className="flex flex-col lg:flex-row gap-12 lg:gap-16 items-center">
           
           {/* Photo Placeholder Area */}
@@ -48,11 +48,11 @@ export default function CoachProfileSection() {
             className="w-full lg:w-1/2 text-center lg:text-left text-white"
           >
             <h2 className="text-3xl sm:text-4xl font-bold tracking-tight mb-2">
-              Meet <span className="font-signature font-normal text-5xl sm:text-6xl text-primary block mt-4 lg:inline lg:mt-0 lg:ml-2">Meenakshi Kaushik</span>
+              Meet <span className="font-signature font-normal text-5xl sm:text-6xl text-white block mt-4 lg:inline lg:mt-0 lg:ml-2">Meenakshi Kaushik</span>
             </h2>
             
-            <h3 className="text-lg sm:text-xl font-medium text-emerald-300 tracking-wide uppercase mb-6 mt-4 lg:mt-6">
-              Certified Nutritionist <span className="mx-2 opacity-50">|</span> Weight Loss Coach
+            <h3 className="text-[11px] min-[375px]:text-xs sm:text-xl font-medium text-emerald-300 tracking-wide uppercase mb-6 mt-4 lg:mt-6 whitespace-nowrap overflow-hidden text-ellipsis">
+              Certified Nutritionist <span className="mx-1 sm:mx-2 opacity-50">|</span> Weight Loss Coach
             </h3>
             
             <div className="space-y-6 text-white/80 text-base sm:text-lg leading-relaxed max-w-2xl mx-auto lg:mx-0">

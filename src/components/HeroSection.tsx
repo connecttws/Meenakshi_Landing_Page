@@ -15,7 +15,7 @@ export default function HeroSection() {
         <div className="absolute top-0 left-0 w-full h-[600px] bg-gradient-to-br from-emerald-100/50 via-transparent to-transparent opacity-80 blur-3xl"></div>
         
         {/* Top Right Orange/Gold Gradient */}
-        <div className="absolute top-20 right-0 w-[500px] h-[500px] bg-amber-100/40 rounded-full blur-3xl"></div>
+        <div className="absolute top-20 right-0 w-[300px] md:w-[500px] h-[300px] md:h-[500px] bg-amber-100/40 rounded-full blur-3xl"></div>
 
         {/* Floating Abstract Shapes */}
         <motion.div
@@ -30,7 +30,7 @@ export default function HeroSection() {
         />
       </div>
 
-      <div className="mx-auto max-w-7xl px-6 lg:px-8 relative z-10">
+      <div className="mx-auto max-w-7xl px-4 md:px-6 lg:px-8 relative z-10">
         <div className="mx-auto max-w-4xl text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}

@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
-    <footer className="bg-secondary text-white/70 py-12 border-t border-white/10">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8 text-center">
+    <footer className="bg-secondary text-white/70 py-10 md:py-16 lg:py-20 border-t border-white/10">
+      <div className="mx-auto max-w-7xl px-4 md:px-6 lg:px-8 text-center">
         <div className="flex flex-col items-center justify-center mb-6">
           <span className="font-signature font-normal text-4xl text-white leading-none pt-2">
             Meenakshi Kaushik

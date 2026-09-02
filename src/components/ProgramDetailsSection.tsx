@@ -27,8 +27,8 @@ const features = [
 
 export default function ProgramDetailsSection() {
   return (
-    <section className="py-16 bg-secondary">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+    <section className="py-10 md:py-16 bg-secondary" id="program">
+      <div className="mx-auto max-w-7xl px-4 md:px-6 lg:px-8">
         <div className="mx-auto max-w-3xl text-center mb-10">
           <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
             What You'll Get Inside Your Coaching Program

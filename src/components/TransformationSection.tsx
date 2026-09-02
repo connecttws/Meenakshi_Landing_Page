@@ -33,8 +33,8 @@ export default function TransformationSection() {
   };
 
   return (
-    <section className="py-16 bg-white overflow-hidden">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+    <section className="py-8 md:py-12 bg-white overflow-hidden">
+      <div className="mx-auto max-w-7xl px-4 md:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center mb-10">
           <h2 className="text-3xl font-bold tracking-tight text-secondary sm:text-4xl">
             Real People. Real Results.

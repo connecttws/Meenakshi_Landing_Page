@@ -14,12 +14,12 @@ const focusAreas = [
 
 export default function AboutSection() {
   return (
-    <section className="py-20 bg-white relative overflow-hidden">
+    <section className="py-10 md:py-16 bg-white relative overflow-hidden">
       {/* Background Decor */}
       <div className="absolute top-0 right-0 w-full lg:w-1/2 h-full bg-emerald-50/40 rounded-l-[100px] -z-10 transform translate-x-1/4 lg:translate-x-1/3"></div>
       <div className="absolute bottom-0 left-0 w-64 h-64 bg-amber-50 rounded-full blur-3xl -z-10 opacity-50 transform -translate-x-1/2 translate-y-1/2"></div>
       
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl px-4 md:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           
           <motion.div

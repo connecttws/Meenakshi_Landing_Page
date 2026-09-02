@@ -40,8 +40,8 @@ export default function FAQSection() {
   };
 
   return (
-    <section className="py-16 bg-white">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+    <section className="py-8 md:py-12 bg-white">
+      <div className="mx-auto max-w-7xl px-4 md:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center mb-10">
           <span className="inline-block px-4 py-1 rounded-full bg-red-100 text-red-600 font-semibold text-sm mb-4">
             Very Important
