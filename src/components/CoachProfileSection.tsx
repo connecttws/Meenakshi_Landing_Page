@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { CalendarCheck, Heart } from "lucide-react";
+import Image from "next/image";
 
 export default function CoachProfileSection() {
   return (
@@ -21,21 +22,16 @@ export default function CoachProfileSection() {
             className="w-full lg:w-1/2 flex justify-center lg:justify-end"
           >
             <div className="relative w-full max-w-md aspect-[4/5] rounded-[2.5rem] bg-emerald-900/40 border border-emerald-700/30 overflow-hidden shadow-2xl flex items-center justify-center group">
-              {/* This is the placeholder for her actual photo */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent z-10"></div>
+              {/* Photo Overlay */}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent z-10 pointer-events-none"></div>
               
-              {/* Placeholder Content (remove when image is added) */}
-              <div className="text-center p-6 z-20 text-emerald-100/50 flex flex-col items-center">
-                <Heart className="w-12 h-12 mb-4 opacity-50" />
-                <p className="text-lg font-medium border border-dashed border-emerald-600/50 p-4 rounded-xl">
-                  [ Add Meenakshi Kaushik Photo Here ]
-                  <br/>
-                  <span className="text-sm opacity-70 mt-2 block">Aspect ratio 4:5 recommended</span>
-                </p>
-              </div>
-
-              {/* Add an actual Image tag here later */}
-              {/* <Image src="/path/to/photo.jpg" alt="Meenakshi Kaushik" fill className="object-cover z-0" /> */}
+              <Image 
+                src="/images/photo meenakshi.png" 
+                alt="Meenakshi Kaushik" 
+                fill 
+                className="object-cover z-0" 
+                priority
+              />
             </div>
           </motion.div>
 

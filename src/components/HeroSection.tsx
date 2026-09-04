@@ -79,21 +79,20 @@ export default function HeroSection() {
             </div>
           </motion.div>
 
-          {/* VSL Video Placeholder */}
+          {/* VSL Video */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6, duration: 0.8 }}
-            className="mt-6 sm:mt-10 relative w-full max-w-3xl mx-auto aspect-video bg-secondary rounded-2xl shadow-2xl overflow-hidden group cursor-pointer border-4 border-white/50"
+            className="mt-6 sm:mt-10 relative w-full max-w-3xl mx-auto aspect-video bg-secondary rounded-2xl shadow-2xl overflow-hidden group border-4 border-white/50"
           >
-            <div className="absolute inset-0 bg-gradient-to-br from-secondary to-[#043326] flex items-center justify-center transition-colors">
-              <div className="w-20 h-20 bg-primary rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
-                <Play className="w-8 h-8 text-white ml-1 fill-white" />
-              </div>
-            </div>
-            <div className="absolute bottom-4 left-4 right-4 text-white/90 font-medium flex items-center gap-2 justify-center drop-shadow-md bg-black/20 backdrop-blur-md py-2 rounded-lg mx-12">
-              Watch: How we guarantee results without a time limit
-            </div>
+            <iframe
+              src="https://fast.wistia.net/embed/iframe/sppu5h7owc?seo=false&videoFoam=true"
+              title="Hero Video"
+              allow="autoplay; fullscreen"
+              allowFullScreen
+              className="absolute inset-0 w-full h-full border-0"
+            ></iframe>
           </motion.div>
 
           <motion.div
