@@ -1,11 +1,17 @@
 "use client";
 
+import { useEffect } from "react";
 import Footer from "@/components/Footer";
 import { motion } from "framer-motion";
 import { CheckCircle2, ArrowLeft, CalendarHeart, Target, Salad, Activity, Heart, Sparkles } from "lucide-react";
 import Link from "next/link";
 
 export default function ThankYouPage() {
+  useEffect(() => {
+    if (typeof window !== "undefined" && (window as any).fbq) {
+      (window as any).fbq("track", "PageView");
+    }
+  }, []);
   return (
     <main className="min-h-screen flex flex-col bg-[#fdfbf7]">
       <div className="flex-grow relative overflow-hidden py-12 sm:py-16 flex items-center justify-center">
