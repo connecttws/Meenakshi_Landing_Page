@@ -110,7 +110,9 @@ export default function TransformationSection() {
 
         <div className="mt-10 flex justify-center px-4">
           <a
-            href="#book"
+            href="https://meenakshikaushik.dayschedule.com/meenakshi-kaushik-weight-loss-consultation"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex w-full sm:w-auto items-center justify-center gap-2 rounded-full bg-secondary px-8 py-4 text-base sm:text-lg font-bold text-white shadow-xl shadow-secondary/20 transition-transform hover:-translate-y-1 hover:shadow-secondary/30"
           >
             <CalendarCheck className="w-5 h-5" />

@@ -49,7 +49,9 @@ export default function Navbar() {
 
         <div className="flex-shrink-0 ml-2 sm:ml-0">
           <a
-            href="#book"
+            href="https://meenakshikaushik.dayschedule.com/meenakshi-kaushik-weight-loss-consultation"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center justify-center rounded-full bg-secondary px-2.5 py-1.5 sm:px-4 sm:py-2 text-[10px] sm:text-xs font-semibold text-white shadow-sm hover:bg-secondary/90 transition-colors whitespace-nowrap"
           >
             Book Your Consultation

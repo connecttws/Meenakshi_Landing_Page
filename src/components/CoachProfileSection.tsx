@@ -73,7 +73,9 @@ export default function CoachProfileSection() {
               </p>
               
               <a
-                href="#book"
+                href="https://meenakshikaushik.dayschedule.com/meenakshi-kaushik-weight-loss-consultation"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="group relative inline-flex w-full sm:w-auto items-center justify-center gap-2 rounded-full bg-primary px-8 py-4 text-lg font-semibold text-white shadow-xl shadow-primary/20 transition-all hover:bg-emerald-500 hover:shadow-primary/40 hover:-translate-y-1"
               >
                 <CalendarCheck className="w-5 h-5" />
